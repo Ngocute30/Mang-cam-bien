@@ -10,6 +10,11 @@
 // {
 //     Serial.begin(9600);
 //     SPI.begin(18, 19, 23, 5);
+//     // Khởi tạo SPI cho ESP32
+//     // SCK  = GPIO18
+//     // MISO = GPIO19
+//     // MOSI = GPIO23
+//     // SS   = GPIO5
 //     rfid.PCD_Init();
 //     Serial.println("RFID ready");
 // }
@@ -30,3 +35,4 @@
 //     Serial.println();
 //     rfid.PICC_HaltA();
 // }
+
